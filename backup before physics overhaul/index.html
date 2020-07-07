@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>quadtree</title>
+    <script type="text/javascript" src="d3.min.js" ></script>     
+    <script src="point.js"></script>
+    <script src="rectangle.js"></script>
+    <script src="quadtree.js"></script>
+    <script src="physics.js"></script>
+</head>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <div id="scatter_area">
+        <svg class="canvas"></svg>
+    </div>
+
+    <div id="counters" class="counters">
+        <p id="count_not" style="color:green"> ■ Healthy: </p>
+        <p id="count_inf" style="color:red"> ■ Infected: </p>
+        <p id="count_rec" style="color:blue"> ■ Recovered: </p>
+        <p id="count_dead" style="color:purple"> ■ Dead: </p>
+        <p id="count_vac" style="color:rgb(192, 192, 192)"> ■ Vaccinated: </p>
+        <p></p>
+    </div>
+    <div id="simulation_block" class="simulation_block">
+    </div>
+
+    
+    <script src='sketch.js'></script>
+</body>
+</html>
+
+
+<!-- <svg> 
+    <circle class="target" style="fill: #69b3a2" stroke="black" cx=50 cy=50 r=40></circle>
+  </svg>
+
+  <script src="d3.min.js"></script>
+  <script>
+      d3
+        .select(".target")  // select the elements that have the class 'target'
+        .style("stroke-width", 12) // change their style: stroke width is not equal to 8 pixels
+  </script> -->

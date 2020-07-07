@@ -1,0 +1,11 @@
+ToDo:
+Fixes:
+- find a faster way than writing and removing from DOM. Instead, try to just edit attributes and redraw
+- Figure out why collisions seem to be energy net positive
+
+Additions:
+- Basic GUI to customize
+- Functionality to easily add and remove obstacles (walls, aisles, etc). Basically be able to draw rectangles and not have points spawn in them
+- Visualization of the numbers rather than just counters (graph like on the Wapo article)
+- Make each simulation a callable function with params so we can do different instances and restart etc
+- make all the collision measurements based on dot radius so that size can change freely for different sims
